@@ -1,0 +1,17 @@
+# to check the aws connected version using cmd
+
+aws --version
+
+#configuration with aws clous environment
+
+aws configure
+AWS Access Key ID [****************MBKL]: AKIAVQ4WJJRVN7AIY7HQ
+AWS Secret Access Key [****************kGXH]: 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
+Default region name [ap-south-1]: ap-south-1
+Default output format [json]: json
+
+#load data into s3 bucket
+aws s3 cp music_data.csv s3://my-music-data-bucket/musicdata_source/
+aws s3 cp log_data.csv s3://my-music-data-bucket/musicdata_source/
+
+
