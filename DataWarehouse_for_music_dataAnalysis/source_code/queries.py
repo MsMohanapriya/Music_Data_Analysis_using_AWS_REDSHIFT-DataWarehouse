@@ -44,7 +44,7 @@ create="""CREATE TABLE Output_table5 AS
 cur = con.cursor()
 cur.execute(create)
 
-#query exection using cursor
+#query execution using cursor
 cur.execute('select * from Output_table5;')
 
 #print the query output using pandas dataframe
@@ -66,7 +66,7 @@ f_query='''SELECT o.song_id,
             ON o.song_id = m.song_id AND o.song_popularity = m.max_popularity
             ORDER BY o.song_popularity DESC
         ;'''
-#query exection using cursor
+#query execution using cursor
 cur.execute(f_query)
 
 #print the query output using pandas dataframe
