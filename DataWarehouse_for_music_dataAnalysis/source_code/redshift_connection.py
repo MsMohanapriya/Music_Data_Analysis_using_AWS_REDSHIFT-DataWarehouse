@@ -64,7 +64,7 @@ copy_command1="""copy log_data
 ;"""
 
 
-#Opening a cursor and run create & copy query
+#Opening a cursor and run the create & copy query
 
 cur = con.cursor()
 cur.execute(create)
@@ -78,6 +78,6 @@ con.commit()
 cur.close()
 con.close()
 
-#print stamenr to verify the successfu execution
+#print statement to verify the successful execution
 
 print("Executed Successfully")
