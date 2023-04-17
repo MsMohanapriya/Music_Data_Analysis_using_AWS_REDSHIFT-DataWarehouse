@@ -7,8 +7,8 @@ import pandas as pd
 
 s3 = boto3.client(
     's3',
-    aws_access_key_id="AKIAVQ4WJJRVN7AIY7HQ", 
-    aws_secret_access_key=" 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", 
+    aws_access_key_id="*KIAVQ4WJJRVN7AIY7HQ", 
+    aws_secret_access_key=" 9L2ovZm3T19vaLb7DbPMOXWL*rV9dCQVHrvJvU4R", 
     region_name="ap-south-1"
     )
 
@@ -18,7 +18,7 @@ con=psycopg2.connect(
     host='cluster-1.ccbx4r1ighpu.ap-south-1.redshift.amazonaws.com', 
     port= '5439', 
     user= 'db_user', 
-    password= 'Mohana2002'
+    password= '***'
     )
 
 #Joining two different data into single table with specifies columns using join and store the output in another table
