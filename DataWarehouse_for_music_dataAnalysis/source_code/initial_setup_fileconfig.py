@@ -12,4 +12,4 @@ setup(
 
 # The following line will generate the .whl file and various folders -by using it  in terminal
 
-# aws_glue_python>python setup.py bdist_wheel
+# python setup.py bdist_wheel
