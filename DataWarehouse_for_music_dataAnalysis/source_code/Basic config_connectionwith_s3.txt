@@ -5,8 +5,8 @@ aws --version
 #configuration with aws cloud environment
 
 aws configure
-AWS Access Key ID [****************MBKL]: AKIAVQ4WJJRVN7AIY7HQ
-AWS Secret Access Key [****************kGXH]: 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
+AWS Access Key ID [****************MBKL]: *KIAVQ4WJJRVN7AIY7HQ
+AWS Secret Access Key [****************kGXH]: 9L2ovZm3T19vaLb7DbPMOXWL*rV9dCQVHrvJvU4R
 Default region name [ap-south-1]: ap-south-1
 Default output format [json]: json
 
