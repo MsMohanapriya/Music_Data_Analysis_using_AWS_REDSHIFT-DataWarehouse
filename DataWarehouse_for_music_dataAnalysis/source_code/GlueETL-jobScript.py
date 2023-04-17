@@ -87,3 +87,4 @@ AmazonRedshift_node3 = glueContext.write_dynamic_frame.from_catalog(
 )
 
 job.commit()
+
