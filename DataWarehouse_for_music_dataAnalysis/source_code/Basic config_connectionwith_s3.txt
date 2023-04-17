@@ -2,7 +2,7 @@
 
 aws --version
 
-#configuration with aws clous environment
+#configuration with aws cloud environment
 
 aws configure
 AWS Access Key ID [****************MBKL]: AKIAVQ4WJJRVN7AIY7HQ
