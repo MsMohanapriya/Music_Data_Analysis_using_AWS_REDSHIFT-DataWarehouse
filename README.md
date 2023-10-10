@@ -1,4 +1,4 @@
-# MUsic data analysis using Data Engineering
+# Music data analysis using Data Engineering
 
 Analysing the subset of Million Song Dataset 
 
